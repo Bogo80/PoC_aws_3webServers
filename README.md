@@ -1,11 +1,9 @@
-# PoC_aws_3webServers
-# PoC_3aws_web
 # PoC -deploy 3 webservers in AWS using Terraform 
 
 This repository contains Terraform files to set up a basic infrastructure for a high available web application.
 
+<img width="410" alt="image" src="https://github.com/Bogo80/PoC_aws_3webServers/assets/133137279/4495a234-befa-462f-837b-defb07d2c34c">
 
-<img width="410" alt="image" src="https://github.com/Bogo80/PoC_aws_3webServers/assets/133137279/51083a9d-e4ea-4a9f-afb1-93bfe9595854">
 
 # main.tf
 The main.tf file sets up the infrastructure for a web application. It creates a Virtual Private Cloud (VPC) using the specified CIDR block, which serves as an isolated network for the application. Additionally, it defines a launch template for EC2 instances.
